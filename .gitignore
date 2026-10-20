@@ -1,0 +1,12 @@
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Tes propres schémas restent sur ta machine : rien de ce dossier n'est publié.
+schemas/*
+!schemas/.gitkeep

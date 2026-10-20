@@ -1,0 +1,3 @@
+# Fins de ligne Unix dans le depot, quel que soit le systeme qui clone.
+* text=auto eol=lf
+*.png binary

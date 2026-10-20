@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "schema-kit"
+version = "1.0.0"
+description = "Des schémas d'architecture propres, pensés pour être dessinés par un LLM."
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = ["matplotlib>=3.6", "pillow>=9"]
+
+[tool.setuptools]
+py-modules = ["schema_kit"]
